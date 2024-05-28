@@ -1,0 +1,6 @@
+env: "local"
+storage_url: "postgres://postgres:1@localhost:5432/seguser?sslmode=disable"
+http_server:
+  address: "localhost:8089"
+  timeout: 5s
+  idle-timeout: 60s

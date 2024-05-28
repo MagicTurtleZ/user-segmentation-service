@@ -12,7 +12,7 @@
 ## Модель базы данных
 Пожалуйста, ознакомьтесь со скриптом модели базы данных в папке materials и примените его к вашей базе данных (вы можете использовать командную строку с psql или просто запустить его через любую IDE, например DataGrip от JetBrains или pgAdmin от сообщества PostgreSQL).
 
-## Примеры работы с ap
+## Примеры работы с api
 1. curl --header "Content-Type: application/json" --request POST --data '{"userId":1}' http://localhost:8089/show-user-segments
 2. curl --header "Content-Type: application/json" --request POST --data '{"userId":3,"addSlug":["DISCOUNT_50"],"ttl":"2h"}' http://localhost:8089/add-user-segments
 3. curl --header "Content-Type: application/json" --request POST --data '{"userId":3,"deleteSlug":["DISCOUNT_30", "DISCOUNT_50"]}' http://localhost:8089/add-user-segments
